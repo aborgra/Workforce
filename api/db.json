@@ -1,0 +1,122 @@
+{
+  "computers": [
+    {
+      "id": 1,
+      "model": "Macbook Pro",
+      "year": 2012
+    },
+    {
+      "id": 2,
+      "model": "Macbook Plus",
+      "year": 2014
+    },
+    {
+      "id": 3,
+      "model": "Macbook Air",
+      "year": 2015
+    },
+    {
+      "id": 4,
+      "model": "Acer",
+      "year": 2014
+    },
+    {
+      "id": 5,
+      "model": "Apple",
+      "year": 2016
+    },
+    {
+      "id": 6,
+      "model": "Lenovo",
+      "year": 2015
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "firstName": "Rainu",
+      "lastName": "Ittycheriah",
+      "computerId": 1,
+      "departmentId": 2,
+      "locationId": 3
+
+    },
+    {
+      "id": 2,
+      "firstName": "Bunny",
+      "lastName": "Cheriah",
+      "computerId": 2,
+      "departmentId": 3,
+      "locationId": 2
+
+    },
+    {
+      "id": 3,
+      "firstName": "Job",
+      "lastName": "Ran",
+      "computerId": 3,
+      "departmentId": 4,
+      "locationId": 1
+
+    },
+    {
+      "id": 4,
+      "firstName": "Tom",
+      "lastName": "Follow",
+      "computerId": 4,
+      "departmentId": 2,
+      "locationId": 3
+
+      
+    },
+    {
+      "id": 5,
+      "firstName": "Betty",
+      "lastName": "White",
+      "computerId": 5,
+      "departmentId": 3,
+      "locationId": 2
+
+    },
+    {
+      "id": 6,
+      "firstName": "Tilly",
+      "lastName": "Brown",
+      "computerId": 6,
+      "departmentId": 1,
+      "locationId": 1
+    }
+  ],
+  "departments": [
+    {
+      "id": 1,
+      "name": "Sales"
+    },
+    {
+      "id": 2,
+      "name": "Accounting"
+    },
+    {
+      "id": 3,
+      "name": "Customer Service"
+    },
+    {
+      "id": 4,
+      "name": "Janitorial"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville"
+    },
+    {
+      "id": 2,
+      "name": "Atlanta"
+    },
+    {
+      "id": 3,
+      "name": "Memphis"
+    }
+  ]
+}
