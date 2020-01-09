@@ -1,6 +1,6 @@
 const CustomerComponent = (customer, relationships) => {
   return `
-  
+
       <section class="customer">
           <header>
               <h2>${customer.name}</h2>
@@ -10,7 +10,7 @@ const CustomerComponent = (customer, relationships) => {
           <div>Related Employees:
           <ul>
           ${relationships.map(employee => `
-          <li>${employee.firstName} ${employee.lastName}</li>`)}
+          <li>${employee.firstName} ${employee.lastName}</li>`).join("")}
           </ul>
           </section>
       </section>

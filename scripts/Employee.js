@@ -18,7 +18,7 @@ const Employee = (employee, computer, department, location, relationships) => {
           <div>Related Customers:
           <ul class="employeeCustomerRelationship">
           ${relationships.map(customer => `
-          <li>${customer.name}</li>`)}
+          <li>${customer.name}</li>`).join("")}
           </ul>
           </section>
       </section>
